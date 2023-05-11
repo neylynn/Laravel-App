@@ -1,0 +1,24 @@
+/* Main Css*/
+@import url('bootstrap.min.css');
+@import url('nivo-lightbox.css');
+@import url('nivo-lightbox-theme/default/default.css');
+@import url('owl.carousel.css');
+@import url('owl.theme.css');
+@import url('animate.css');
+@import url('style.css');
+/*template color skin*/
+@import url('color/default.css');
+
+
+/*Plugin*/
+@import url('../plugins/cubeportfolio/css/cubeportfolio.min.css');
+@import url('../plugins/cubeportfolio/css/cubeportfolio.css');
+
+/*Fonts*/
+@import url('../font-awesome/css/font-awesome.min.css');
+@import url('https://mmwebfonts.comquas.com/fonts/?font=pyidaungsu');
+
+
+/*Slider*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css');

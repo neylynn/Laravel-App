@@ -1,0 +1,206 @@
+/** Font Append **/
+@font-face {
+    font-family: 'myanmar3';
+    src: url('../fonts/myanmar3/Myanmar3.eot');
+    src: url('../fonts/myanmar3/Myanmar3.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/myanmar3/Myanmar3.woff2') format('woff2'), 
+         url('../fonts/myanmar3/Myanmar3.woff') format('woff'), 
+         url('../fonts/myanmar3/Myanmar3.ttf') format('truetype'), 
+         url('../fonts/myanmar3/Myanmar3.svg') format('svg');
+    font-style: normal;
+}
+
+/** Myanmar Font **/
+body {
+    color: #6d6d6d;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, myanmar3;
+}
+
+.mmtext {
+    /*font-family: unimyanmar !important;*/
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, myanmar3 !important;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 0;
+}
+
+input {
+    /*font-family: unimyanmar !important;*/
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, myanmar3 !important;
+}
+
+.select2-selection__rendered {
+    /*font-family: unimyanmar !important;*/
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, myanmar3 !important;
+}
+
+.mandatory {
+    color: red;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.preview-images-zone {
+    width: 100%;
+    /*border: 1px solid #ddd;*/
+    min-height: 180px;
+    /* display: flex; */
+    padding: 5px 5px 0px 5px;
+    position: relative;
+    overflow: auto;
+}
+
+.kv-avatar .krajee-default.file-preview-frame,
+.kv-avatar .krajee-default.file-preview-frame:hover {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+}
+
+.kv-avatar {
+    display: inline-block;
+}
+
+.kv-avatar .file-input {
+    display: table-cell;
+    width: 213px;
+}
+
+.kv-reqd {
+    color: red;
+    font-family: monospace;
+    font-weight: normal;
+}
+
+.ui-sortable-helper {
+    width: 90px !important;
+    height: 90px !important;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.outerDivFull {
+    margin: 50px;
+}
+
+.switchToggle input[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+    position: absolute;
+}
+
+.switchToggle label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 70px;
+    max-width: 70px;
+    height: 25px;
+    background: #d1d1d1;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+}
+
+.switchToggle label:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 26px;
+    height: 26px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+
+.switchToggle input:checked+label,
+.switchToggle input:checked+input+label {
+    background: #3e98d3;
+}
+
+.switchToggle input+label:before,
+.switchToggle input+input+label:before {
+    content: 'No';
+    position: absolute;
+    top: 5px;
+    left: 35px;
+    width: 26px;
+    height: 26px;
+    border-radius: 90px;
+    transition: 0.3s;
+    text-indent: 0;
+    color: #fff;
+}
+
+.switchToggle input:checked+label:before,
+.switchToggle input:checked+input+label:before {
+    content: 'Yes';
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 26px;
+    height: 26px;
+    border-radius: 90px;
+    transition: 0.3s;
+    text-indent: 0;
+    color: #fff;
+}
+
+.switchToggle input:checked+label:after,
+.switchToggle input:checked+input+label:after {
+    left: calc(100% - 2px);
+    transform: translateX(-100%);
+}
+
+.switchToggle label:active:after {
+    width: 60px;
+}
+
+.toggle-switchArea {
+    margin: 10px 0 10px 0;
+}
+
+/*Modified Select 2*/
+.select2-container--default .select2-selection--single {
+    border-radius: 0px;
+    height: 34px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    /*height: 32px;*/
+    position: absolute;
+    top: 1px;
+    width: 20px;
+}
+
+.select2-container--default .select2-selection--multiple {
+    border-radius: 0px;
+    height: 34px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__arrow {
+    height: 32px;
+    position: absolute;
+    top: 1px;
+    width: 20px;
+}
+
+.productRating {
+    color: #fdb732;
+}
+
+
+.productRating {
+    color: #fdb732;
+}
+
+.radio {
+    margin-top: 0px !important;
+}
+
+
